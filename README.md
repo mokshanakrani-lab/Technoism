@@ -1,2 +1,3 @@
 # Technoism
 Technoism – Building the future through robotics, AI, innovation, and technology.
+TECHNOISM is the official event site for a two-stage hackathon hosted by C.K. Pithawala College of Engineering & Technology (CKPCET). It walks visitors through everything they need to participate — an online qualifying round followed by an offline hackathon finale on 14th August — and covers registration details, event guidelines, a timeline of activities, and profiles of the faculty coordinators and student organizing team. The tagline "Challenge Ordinary, Build Extraordinary" captures the site's spirit: encouraging teams to bring bold, real-world problem-solving ideas from concept to final pitch.
