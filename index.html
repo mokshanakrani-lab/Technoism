@@ -780,6 +780,56 @@
   .results-note .eyebrow{justify-content:center;}
   .results-note h3{color:var(--text); font-size:20px; margin-bottom:8px;}
 
+
+/* ============ SHORTLISTED TEAMS ============ */
+  .shortlist-banner{
+    text-align:center;
+    margin-bottom:36px;
+  }
+  .shortlist-banner h3{
+    font-size:22px;
+    color:var(--success);
+    margin-bottom:8px;
+  }
+  .shortlist-banner p{color:var(--text-muted); font-size:15px;}
+  .shortlist-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+    gap:14px;
+  }
+  .shortlist-card{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:16px 18px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+  }
+  .shortlist-card:hover{
+    transform:translateY(-3px);
+    border-color:var(--cyan-dim);
+    box-shadow:0 14px 30px -16px rgba(77,227,238,0.3);
+  }
+  .shortlist-card .sc-id{
+    flex:none;
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    font-weight:700;
+    color:var(--bg);
+    background:linear-gradient(120deg, var(--cyan), var(--violet));
+    padding:6px 9px;
+    border-radius:6px;
+    white-space:nowrap;
+  }
+  .shortlist-card .sc-name{
+    font-weight:700;
+    font-size:15.5px;
+    color:var(--text);
+  }
+
+
   /* ============ WINNERS ============ */
   .podium{
     display:grid;
@@ -1472,10 +1522,33 @@
         </div>
       </div>
 
-      <div class="results-note">
-        <div class="eyebrow">announcement</div>
-        <h3>Round 1 result will be shown here.</h3>
-        <p>Qualifier Round shortlists will be published on this page as soon as they're finalized. Final Showdown results are declared live on stage on 14th August, right after jury evaluation.</p>
+      <div class="shortlist-banner">
+        <div class="eyebrow" style="justify-content:center;">qualifier round result</div>
+        <h3>🎉 20 Teams Shortlisted for the Final Showdown!</h3>
+        <p>Congratulations to all shortlisted teams — see you on 14th August at C.K. Pithawala College of Engineering &amp; Technology.</p>
+      </div>
+
+      <div class="shortlist-grid">
+        <div class="shortlist-card"><span class="sc-id">CKPHACK03</span><span class="sc-name">threeBrainCells</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK06</span><span class="sc-name">Team Star</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK010</span><span class="sc-name">Anubis</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK013</span><span class="sc-name">Algoholics</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK016</span><span class="sc-name">Nexus Labs</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK017</span><span class="sc-name">AIgnite</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK021</span><span class="sc-name">Echo_verse</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK024</span><span class="sc-name">DataVor</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK026</span><span class="sc-name">Civic AI</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK028</span><span class="sc-name">OFFLINE ERA</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK029</span><span class="sc-name">OMNI</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK031</span><span class="sc-name">NexGen AI</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK038</span><span class="sc-name">Akshar</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK044</span><span class="sc-name">Team Nexon</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK056</span><span class="sc-name">8 Bit Coder</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK059</span><span class="sc-name">HackaKnight</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK065</span><span class="sc-name">Code Nexus</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK066</span><span class="sc-name">Pentagon</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK070</span><span class="sc-name">Team Visionary</span></div>
+        <div class="shortlist-card"><span class="sc-id">CKPHACK071</span><span class="sc-name">Valkyries</span></div>
       </div>
     </div>
   </section>
